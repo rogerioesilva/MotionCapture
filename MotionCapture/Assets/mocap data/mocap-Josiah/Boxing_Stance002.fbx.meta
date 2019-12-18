@@ -1,0 +1,832 @@
+fileFormatVersion: 2
+guid: b3328fcfe1aea9a429c5eb39fc85d919
+ModelImporter:
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      74: 205610307279824278
+    second: Boxing_Stance002_mcp
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Boxing_Stance002_mcp' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Josiah:Spine3' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Josiah:Neck1' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Boxing_Stance002_mcp
+      takeName: Boxing_Stance002_mcp
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 16737
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Josiah:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Josiah:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Josiah:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Josiah:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Josiah:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Josiah:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Josiah:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Josiah:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Josiah:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Josiah:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Josiah:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Josiah:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Josiah:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Josiah:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Josiah:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Josiah:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Josiah:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Josiah:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Josiah:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Josiah:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Josiah:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Josiah:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Boxing_Stance002(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System
+      parentName: Boxing_Stance002(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:T160_18103
+      parentName: System
+      position: {x: 2.563666, y: 2.0435605, z: 2.6083877}
+      rotation: {x: 0.64933056, y: -0.54155195, z: -0.31757706, w: 0.42922744}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:T160_18226
+      parentName: System
+      position: {x: -1.019606, y: 3.887116, z: 2.653823}
+      rotation: {x: 0.8557887, y: 0.04354015, z: 0.08476263, w: 0.5084735}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:T160_18242
+      parentName: System
+      position: {x: -1.5654649, y: -2.62188, z: 2.645641}
+      rotation: {x: -0.043139562, y: -0.858565, z: -0.5032477, w: -0.08801711}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:T160_18270
+      parentName: System
+      position: {x: -1.5792222, y: 3.9203856, z: 2.6393197}
+      rotation: {x: 0.8781445, y: 0.21330464, z: 0.074637204, w: 0.4216547}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:T160_18273
+      parentName: System
+      position: {x: 2.1396182, y: -2.946496, z: 2.643458}
+      rotation: {x: 0.20796248, y: -0.8255082, z: -0.50279427, w: 0.14995247}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:T160_18306
+      parentName: System
+      position: {x: 2.3282955, y: -1.6869098, z: 2.5428896}
+      rotation: {x: 0.30852893, y: -0.81415886, z: -0.4484888, w: 0.20202257}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:T160_18345
+      parentName: System
+      position: {x: 1.4012933, y: 3.7689133, z: 2.6516662}
+      rotation: {x: 0.8079717, y: -0.15690954, z: -0.10923174, w: 0.55734146}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:T160_18347
+      parentName: System
+      position: {x: -2.1662161, y: -1.4130093, z: 2.6474855}
+      rotation: {x: 0.53764206, y: 0.70115495, z: 0.38510036, w: 0.26649678}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:T160_18349
+      parentName: System
+      position: {x: 2.6086884, y: 3.6274571, z: 2.5930846}
+      rotation: {x: 0.83478916, y: -0.15884219, z: -0.2003887, w: 0.48758662}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah
+      parentName: Boxing_Stance002(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:ARIEL
+      parentName: Josiah
+      position: {x: -0.023208655, y: -0.075409874, z: 1.6120374}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:LFHD
+      parentName: Josiah
+      position: {x: -0.11174965, y: -0.116493575, z: 1.5373684}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:LBHD
+      parentName: Josiah
+      position: {x: -0.11081893, y: -0.0027757727, z: 1.5068274}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:RFHD
+      parentName: Josiah
+      position: {x: 0.05578062, y: -0.12642658, z: 1.5328844}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:RBHD
+      parentName: Josiah
+      position: {x: 0.031510312, y: 0.01260959, z: 1.4926809}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:C7
+      parentName: Josiah
+      position: {x: -0.028515281, y: 0.03571267, z: 1.332711}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:T10
+      parentName: Josiah
+      position: {x: -0.024873218, y: 0.0767666, z: 1.1223518}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:CLAV
+      parentName: Josiah
+      position: {x: -0.037448995, y: -0.13223113, z: 1.315675}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:STRN
+      parentName: Josiah
+      position: {x: -0.04535062, y: -0.17519341, z: 1.133597}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:LFSH
+      parentName: Josiah
+      position: {x: -0.16471885, y: -0.10564465, z: 1.2911553}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:LBSH
+      parentName: Josiah
+      position: {x: -0.1476384, y: 0.07415618, z: 1.2330196}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:LUPA
+      parentName: Josiah
+      position: {x: -0.32538632, y: 0.0025543286, z: 1.3194466}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:LELB
+      parentName: Josiah
+      position: {x: -0.46965808, y: 0.041129965, z: 1.2902671}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:LIEL
+      parentName: Josiah
+      position: {x: -0.47358644, y: -0.025637424, z: 1.2170283}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:LFRM
+      parentName: Josiah
+      position: {x: -0.60477793, y: -0.009573228, z: 1.3182015}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:LIWR
+      parentName: Josiah
+      position: {x: -0.6744923, y: -0.06574318, z: 1.2888572}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:LOWR
+      parentName: Josiah
+      position: {x: -0.68912405, y: 0.0149900215, z: 1.286165}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:LIHAND
+      parentName: Josiah
+      position: {x: -0.78313667, y: -0.059972208, z: 1.3130177}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:LOHAND
+      parentName: Josiah
+      position: {x: -0.77652913, y: 0.0069851684, z: 1.3031237}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:RFSH
+      parentName: Josiah
+      position: {x: 0.091380134, y: -0.117514335, z: 1.2912349}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:RBSH
+      parentName: Josiah
+      position: {x: 0.10603845, y: 0.050431646, z: 1.2694371}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:RUPA
+      parentName: Josiah
+      position: {x: 0.28468797, y: -0.056259893, z: 1.3346075}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:RELB
+      parentName: Josiah
+      position: {x: 0.4161644, y: -0.025262395, z: 1.3061368}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:RIEL
+      parentName: Josiah
+      position: {x: 0.4169604, y: -0.08272699, z: 1.2318742}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:RFRM
+      parentName: Josiah
+      position: {x: 0.5431555, y: -0.10275623, z: 1.3570808}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:RIWR
+      parentName: Josiah
+      position: {x: 0.6051644, y: -0.17116264, z: 1.3378091}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:ROWR
+      parentName: Josiah
+      position: {x: 0.63007843, y: -0.09097097, z: 1.3184581}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:RIHAND
+      parentName: Josiah
+      position: {x: 0.6979389, y: -0.18075556, z: 1.3490827}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:ROHAND
+      parentName: Josiah
+      position: {x: 0.70834416, y: -0.12164186, z: 1.3379388}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:LFWT
+      parentName: Josiah
+      position: {x: -0.16440473, y: -0.1206801, z: 0.9233404}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:MFWT
+      parentName: Josiah
+      position: {x: -0.041715182, y: -0.17549187, z: 0.93379956}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:RFWT
+      parentName: Josiah
+      position: {x: 0.08519119, y: -0.12441132, z: 0.91848356}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:LBWT
+      parentName: Josiah
+      position: {x: -0.12781885, y: 0.036497466, z: 0.92268085}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:MBWT
+      parentName: Josiah
+      position: {x: -0.042291608, y: 0.061031416, z: 0.91513693}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:RBWT
+      parentName: Josiah
+      position: {x: 0.05809355, y: 0.033214863, z: 0.91857487}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:LTHI
+      parentName: Josiah
+      position: {x: -0.23627113, y: -0.10075262, z: 0.6014733}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:LKNE
+      parentName: Josiah
+      position: {x: -0.22110178, y: -0.057384178, z: 0.4061169}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:LKNI
+      parentName: Josiah
+      position: {x: -0.108586706, y: -0.082762085, z: 0.3965941}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:LSHN
+      parentName: Josiah
+      position: {x: -0.24675296, y: -0.023936497, z: 0.20713322}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:LANK
+      parentName: Josiah
+      position: {x: -0.2498375, y: 0.014760971, z: -0.010993239}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:LHEL
+      parentName: Josiah
+      position: {x: -0.18279848, y: 0.058843486, z: -0.010209706}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:LMT5
+      parentName: Josiah
+      position: {x: -0.31255358, y: -0.11451328, z: -0.01616165}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:LMT1
+      parentName: Josiah
+      position: {x: -0.20199254, y: -0.15583195, z: -0.013863046}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:LTOE
+      parentName: Josiah
+      position: {x: -0.28663775, y: -0.20316614, z: -0.013905395}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:RTHI
+      parentName: Josiah
+      position: {x: 0.1346994, y: -0.124055475, z: 0.5785618}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:RKNE
+      parentName: Josiah
+      position: {x: 0.1313815, y: -0.061747335, z: 0.40661976}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:RKNI
+      parentName: Josiah
+      position: {x: 0.0119233, y: -0.088717505, z: 0.39923832}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:RSHN
+      parentName: Josiah
+      position: {x: 0.12875515, y: -0.06327484, z: 0.20699203}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:RANK
+      parentName: Josiah
+      position: {x: 0.15166476, y: -0.015595943, z: -0.01622533}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:RHEL
+      parentName: Josiah
+      position: {x: 0.072870605, y: 0.064656116, z: -0.01628232}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:RMT5
+      parentName: Josiah
+      position: {x: 0.1946508, y: -0.1374935, z: -0.024876118}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:RMT1
+      parentName: Josiah
+      position: {x: 0.08303414, y: -0.16018884, z: -0.017309345}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:RTOE
+      parentName: Josiah
+      position: {x: 0.15636529, y: -0.20910536, z: -0.023098998}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:Solving
+      parentName: Josiah
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:Hips
+      parentName: Josiah:Solving
+      position: {x: -0.0000000037252903, y: -0.062386274, z: 0.84443986}
+      rotation: {x: 0.67466015, y: -0.0116648115, z: -0.027371792, w: 0.7375286}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:Spine
+      parentName: Josiah:Hips
+      position: {x: -0, y: 0.123095475, z: -0.02149449}
+      rotation: {x: 0.007113002, y: 0.0000007599697, z: 0.0056714662, w: 0.99995863}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:Spine1
+      parentName: Josiah:Spine
+      position: {x: -0, y: 0.094382934, z: 0}
+      rotation: {x: 0.040729374, y: -0.0019222607, z: 0.005276308, w: 0.99915445}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:Spine2
+      parentName: Josiah:Spine1
+      position: {x: -0, y: 0.094382934, z: 0}
+      rotation: {x: 0.010494969, y: -0.004652063, z: 0.0017714568, w: 0.9999325}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:Spine3
+      parentName: Josiah:Spine2
+      position: {x: -0, y: 0.094382934, z: 0}
+      rotation: {x: -0.02386963, y: -0.0024145567, z: 0.004751017, w: 0.9997009}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:Neck
+      parentName: Josiah:Spine3
+      position: {x: -0, y: 0.121349484, z: 0.012134949}
+      rotation: {x: 0.0092442455, y: 0.030594373, z: 0.020303821, w: 0.9992829}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:Neck1
+      parentName: Josiah:Neck
+      position: {x: -0, y: 0.042249393, z: 0}
+      rotation: {x: 0.10392611, y: 0.033129964, z: -0.031942062, w: 0.9935197}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:Head
+      parentName: Josiah:Neck1
+      position: {x: -0, y: 0.042249393, z: 0}
+      rotation: {x: -0.022367446, y: 0.00229682, z: -0.020132542, w: 0.9995445}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:HeadEnd
+      parentName: Josiah:Head
+      position: {x: -0, y: 0.09728078, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:RightShoulder
+      parentName: Josiah:Spine3
+      position: {x: -0, y: 0.08667821, z: 0.052709177}
+      rotation: {x: -0.070729494, y: 0.058042433, z: -0.76978785, w: 0.6317081}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:RightArm
+      parentName: Josiah:RightShoulder
+      position: {x: -0, y: 0.18646261, z: 0}
+      rotation: {x: 0.0928281, y: -0.14497392, z: 0.11586333, w: 0.9782338}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:RightForeArm
+      parentName: Josiah:RightArm
+      position: {x: -0, y: 0.271131, z: 0}
+      rotation: {x: 0.031822637, y: 0.04009546, z: -0.029063717, w: 0.99826604}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:RightHand
+      parentName: Josiah:RightForeArm
+      position: {x: -0, y: 0.21117191, z: 0}
+      rotation: {x: 0.0084148, y: -0.0005641525, z: -0.066890344, w: 0.9977247}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:RightHandThumb1
+      parentName: Josiah:RightHand
+      position: {x: 0.025266089, y: 0.037136964, z: 0.027614666}
+      rotation: {x: 0.38480818, y: -0, z: -0, w: 0.9229966}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:RightHandMiddle1
+      parentName: Josiah:RightHand
+      position: {x: -0, y: 0.09903191, z: -0.0006348199}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:LeftShoulder
+      parentName: Josiah:Spine3
+      position: {x: -0, y: 0.08667821, z: 0.052709177}
+      rotation: {x: -0.05654929, y: -0.045020614, z: 0.78029674, w: 0.62121844}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:LeftArm
+      parentName: Josiah:LeftShoulder
+      position: {x: -0, y: 0.18646261, z: 0}
+      rotation: {x: 0.06230152, y: 0.10275492, z: -0.13737889, w: 0.98320246}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:LeftForeArm
+      parentName: Josiah:LeftArm
+      position: {x: -0, y: 0.271131, z: 0}
+      rotation: {x: 0.06660185, y: -0.062386617, z: 0.015163891, w: 0.99571186}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:LeftHand
+      parentName: Josiah:LeftForeArm
+      position: {x: -0, y: 0.21117191, z: 0}
+      rotation: {x: -0.02429166, y: -0.00021442605, z: 0.0088241985, w: 0.999666}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:LeftHandThumb1
+      parentName: Josiah:LeftHand
+      position: {x: -0.025266089, y: 0.037136964, z: 0.027614666}
+      rotation: {x: 0.38480818, y: -0, z: -0, w: 0.9229966}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:LeftHandMiddle1
+      parentName: Josiah:LeftHand
+      position: {x: -0, y: 0.09903191, z: -0.0006348199}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:RightUpLeg
+      parentName: Josiah:Hips
+      position: {x: 0.09200461, y: 0, z: 0}
+      rotation: {x: 0.062387962, y: 0.06563191, z: 0.042968776, w: 0.9949643}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:RightLeg
+      parentName: Josiah:RightUpLeg
+      position: {x: -0, y: -0.43404132, z: 0}
+      rotation: {x: 0.037137575, y: -0, z: -0, w: 0.9993102}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:RightFoot
+      parentName: Josiah:RightLeg
+      position: {x: -0, y: -0.35864654, z: 0}
+      rotation: {x: -0.06442488, y: 0.10127034, z: -0.06611237, w: 0.99056697}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:RightForeFoot
+      parentName: Josiah:RightFoot
+      position: {x: -0, y: -0.035550263, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:RightToeBase
+      parentName: Josiah:RightForeFoot
+      position: {x: -0, y: 0, z: 0.13922611}
+      rotation: {x: 0.15811263, y: -0, z: -0, w: 0.9874211}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:RightToeBaseEnd
+      parentName: Josiah:RightToeBase
+      position: {x: -0, y: 0, z: 0.06261509}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:LeftUpLeg
+      parentName: Josiah:Hips
+      position: {x: -0.09200461, y: 0, z: 0}
+      rotation: {x: 0.045371722, y: -0.11277618, z: -0.046833437, w: 0.9914785}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:LeftLeg
+      parentName: Josiah:LeftUpLeg
+      position: {x: -0, y: -0.43404132, z: 0}
+      rotation: {x: 0.05416385, y: -0, z: -0, w: 0.99853206}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:LeftFoot
+      parentName: Josiah:LeftLeg
+      position: {x: -0, y: -0.35864654, z: 0}
+      rotation: {x: -0.05879506, y: -0.06442634, z: 0.062509805, w: 0.9942258}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:LeftForeFoot
+      parentName: Josiah:LeftFoot
+      position: {x: -0, y: -0.035550263, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:LeftToeBase
+      parentName: Josiah:LeftForeFoot
+      position: {x: -0, y: 0, z: 0.13922611}
+      rotation: {x: 0.13938557, y: -0, z: -0, w: 0.9902382}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Josiah:LeftToeBaseEnd
+      parentName: Josiah:LeftToeBase
+      position: {x: -0, y: 0, z: 0.070090614}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers
+      parentName: Boxing_Stance002(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_1
+      parentName: Unlabeled_Markers
+      position: {x: -0.16100664, y: -0.014592163, z: -0.017882245}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_2
+      parentName: Unlabeled_Markers
+      position: {x: 0.046981238, y: -0.026476119, z: -0.017596686}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_3
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_4
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_5
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

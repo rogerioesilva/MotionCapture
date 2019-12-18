@@ -1,0 +1,917 @@
+fileFormatVersion: 2
+guid: 3fa08263aecb29442bc9d9c85ecde75b
+ModelImporter:
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      74: -648765820889848989
+    second: BlockingHitWithSword_mcp
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'BlockingHitWithSword_mcp' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'Jahdiel_2:Spine3' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'Jahdiel_2:Neck1'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: BlockingHitWithSword_mcp
+      takeName: BlockingHitWithSword_mcp
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 345
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Jahdiel_2:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jahdiel_2:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jahdiel_2:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jahdiel_2:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jahdiel_2:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jahdiel_2:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jahdiel_2:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jahdiel_2:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jahdiel_2:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jahdiel_2:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jahdiel_2:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jahdiel_2:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jahdiel_2:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jahdiel_2:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jahdiel_2:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jahdiel_2:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jahdiel_2:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jahdiel_2:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jahdiel_2:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jahdiel_2:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jahdiel_2:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jahdiel_2:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: BlockingHitWithSword(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System
+      parentName: BlockingHitWithSword(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:T160_18103
+      parentName: System
+      position: {x: 2.4141881, y: 1.7821704, z: 2.6880927}
+      rotation: {x: 0.6710971, y: -0.52020925, z: -0.29738426, w: 0.43654743}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:T160_18226
+      parentName: System
+      position: {x: -1.2939746, y: 3.3580458, z: 2.6862323}
+      rotation: {x: 0.8534207, y: 0.07137052, z: 0.10853074, w: 0.5047777}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:T160_18242
+      parentName: System
+      position: {x: -1.3625275, y: -3.170601, z: 2.6703067}
+      rotation: {x: -0.009190202, y: -0.85876584, z: -0.5066275, w: -0.07592988}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:T160_18270
+      parentName: System
+      position: {x: -1.8545786, y: 3.350535, z: 2.6647832}
+      rotation: {x: 0.8695077, y: 0.24240911, z: 0.09548932, w: 0.41961408}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:T160_18273
+      parentName: System
+      position: {x: 2.353035, y: -3.222825, z: 2.7155893}
+      rotation: {x: 0.24082471, y: -0.81867576, z: -0.49551943, w: 0.16196913}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:T160_18285
+      parentName: System
+      position: {x: -6.5, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: -1, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:T160_18306
+      parentName: System
+      position: {x: 2.450736, y: -1.9542598, z: 2.6177685}
+      rotation: {x: 0.3408289, y: -0.80396414, z: -0.43865007, w: 0.21228173}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:T160_18321
+      parentName: System
+      position: {x: -5.5, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: -1, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:T160_18324
+      parentName: System
+      position: {x: -5, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: -1, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:T160_18344
+      parentName: System
+      position: {x: -4.5, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: -1, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:T160_18345
+      parentName: System
+      position: {x: 1.128624, y: 3.416864, z: 2.7152803}
+      rotation: {x: 0.81427944, y: -0.13099402, z: -0.083693594, w: 0.55927175}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:T160_18347
+      parentName: System
+      position: {x: -2.0498571, y: -2.0100741, z: 2.6652544}
+      rotation: {x: 0.5093897, y: 0.71866184, z: 0.39778188, w: 0.25654793}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:T160_18349
+      parentName: System
+      position: {x: 2.3437643, y: 3.364867, z: 2.6721833}
+      rotation: {x: 0.84139884, y: -0.13155487, z: -0.17745355, w: 0.49320546}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:T160_18356
+      parentName: System
+      position: {x: -2.5, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: -1, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:T160_18357
+      parentName: System
+      position: {x: -2, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: -1, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:T160_18359
+      parentName: System
+      position: {x: -1.5, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: -1, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:T160_18361
+      parentName: System
+      position: {x: -1, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: -1, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:T160_18366
+      parentName: System
+      position: {x: -0.5, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: -1, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: System:T160_18370
+      parentName: System
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: -1, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2
+      parentName: BlockingHitWithSword(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:ARIEL
+      parentName: Jahdiel_2
+      position: {x: 0.5412374, y: -0.28496432, z: 1.6924528}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:LFHD
+      parentName: Jahdiel_2
+      position: {x: 0.46266177, y: -0.35489458, z: 1.6045499}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:LBHD
+      parentName: Jahdiel_2
+      position: {x: 0.48018783, y: -0.2142853, z: 1.5695275}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:RFHD
+      parentName: Jahdiel_2
+      position: {x: 0.62564695, y: -0.36700252, z: 1.6145741}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:RBHD
+      parentName: Jahdiel_2
+      position: {x: 0.60914797, y: -0.22191411, z: 1.5649812}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:C7
+      parentName: Jahdiel_2
+      position: {x: 0.5457171, y: -0.16855553, z: 1.4013115}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:T10
+      parentName: Jahdiel_2
+      position: {x: 0.5365457, y: -0.13632852, z: 1.2494335}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:CLAV
+      parentName: Jahdiel_2
+      position: {x: 0.5481866, y: -0.3319108, z: 1.3671659}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:STRN
+      parentName: Jahdiel_2
+      position: {x: 0.5482818, y: -0.36059314, z: 1.2262539}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:LFSH
+      parentName: Jahdiel_2
+      position: {x: 0.4243056, y: -0.3331507, z: 1.3251802}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:LBSH
+      parentName: Jahdiel_2
+      position: {x: 0.39463532, y: -0.15721096, z: 1.3165604}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:LUPA
+      parentName: Jahdiel_2
+      position: {x: 0.29461142, y: -0.2797049, z: 1.225569}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:LELB
+      parentName: Jahdiel_2
+      position: {x: 0.2936047, y: -0.38496146, z: 1.0768265}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:LIEL
+      parentName: Jahdiel_2
+      position: {x: 0.34461254, y: -0.3239039, z: 1.0317054}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:LFRM
+      parentName: Jahdiel_2
+      position: {x: 0.3780805, y: -0.48774737, z: 1.023983}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:LIWR
+      parentName: Jahdiel_2
+      position: {x: 0.49443376, y: -0.5391179, z: 1.0113481}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:LOWR
+      parentName: Jahdiel_2
+      position: {x: 0.4638777, y: -0.5347304, z: 0.92446953}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:LIHAND
+      parentName: Jahdiel_2
+      position: {x: 0.49737605, y: -0.63546866, z: 0.9907446}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:LOHAND
+      parentName: Jahdiel_2
+      position: {x: 0.49768004, y: -0.616981, z: 0.9175765}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:RFSH
+      parentName: Jahdiel_2
+      position: {x: 0.67267305, y: -0.32180807, z: 1.325225}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:RBSH
+      parentName: Jahdiel_2
+      position: {x: 0.6489942, y: -0.13566329, z: 1.3086311}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:RUPA
+      parentName: Jahdiel_2
+      position: {x: 0.77724, y: -0.31732038, z: 1.2340051}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:RELB
+      parentName: Jahdiel_2
+      position: {x: 0.7805182, y: -0.39216506, z: 1.0677043}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:RIEL
+      parentName: Jahdiel_2
+      position: {x: 0.7181321, y: -0.34765697, z: 1.0415446}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:RFRM
+      parentName: Jahdiel_2
+      position: {x: 0.69824934, y: -0.5078643, z: 1.057006}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:RIWR
+      parentName: Jahdiel_2
+      position: {x: 0.57363796, y: -0.57908666, z: 1.1064643}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:ROWR
+      parentName: Jahdiel_2
+      position: {x: 0.5927118, y: -0.57840276, z: 1.0220146}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:RIHAND
+      parentName: Jahdiel_2
+      position: {x: 0.5304642, y: -0.6627415, z: 1.0944941}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:ROHAND
+      parentName: Jahdiel_2
+      position: {x: 0.55625993, y: -0.6446775, z: 1.0191543}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:LFWT
+      parentName: Jahdiel_2
+      position: {x: 0.43304557, y: -0.35191923, z: 0.96481496}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:MFWT
+      parentName: Jahdiel_2
+      position: {x: 0.54802144, y: -0.39880383, z: 0.9487434}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:RFWT
+      parentName: Jahdiel_2
+      position: {x: 0.65195334, y: -0.33570442, z: 0.96717894}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:LBWT
+      parentName: Jahdiel_2
+      position: {x: 0.43829444, y: -0.16771719, z: 0.9868871}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:MBWT
+      parentName: Jahdiel_2
+      position: {x: 0.53168195, y: -0.14440717, z: 0.99208647}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:RBWT
+      parentName: Jahdiel_2
+      position: {x: 0.61404926, y: -0.15581886, z: 0.99075127}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:LTHI
+      parentName: Jahdiel_2
+      position: {x: 0.39348474, y: -0.35124248, z: 0.6829554}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:LKNE
+      parentName: Jahdiel_2
+      position: {x: 0.34526443, y: -0.23571725, z: 0.44931307}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:LKNI
+      parentName: Jahdiel_2
+      position: {x: 0.4348088, y: -0.27753976, z: 0.42997652}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:LSHN
+      parentName: Jahdiel_2
+      position: {x: 0.3315763, y: -0.184876, z: 0.22449572}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:LANK
+      parentName: Jahdiel_2
+      position: {x: 0.33918658, y: -0.123522304, z: 0.062187348}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:LHEL
+      parentName: Jahdiel_2
+      position: {x: 0.40567034, y: -0.08257197, z: 0.028024264}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:LMT5
+      parentName: Jahdiel_2
+      position: {x: 0.23778911, y: -0.22248489, z: 0.02763373}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:LMT1
+      parentName: Jahdiel_2
+      position: {x: 0.33594048, y: -0.29586682, z: 0.020075183}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:LTOE
+      parentName: Jahdiel_2
+      position: {x: 0.2461351, y: -0.30579484, z: 0.026026143}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:RTHI
+      parentName: Jahdiel_2
+      position: {x: 0.7238993, y: -0.32495612, z: 0.6382309}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:RKNE
+      parentName: Jahdiel_2
+      position: {x: 0.7336227, y: -0.2967357, z: 0.44448534}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:RKNI
+      parentName: Jahdiel_2
+      position: {x: 0.6283371, y: -0.3141797, z: 0.41895297}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:RSHN
+      parentName: Jahdiel_2
+      position: {x: 0.75761753, y: -0.2383614, z: 0.26785076}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:RANK
+      parentName: Jahdiel_2
+      position: {x: 0.75583214, y: -0.21654466, z: 0.07767878}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:RHEL
+      parentName: Jahdiel_2
+      position: {x: 0.6631256, y: -0.2466224, z: 0.040356867}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:RMT5
+      parentName: Jahdiel_2
+      position: {x: 0.8396253, y: -0.34190276, z: 0.016907945}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:RMT1
+      parentName: Jahdiel_2
+      position: {x: 0.72688717, y: -0.38922083, z: 0.01537828}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:RTOE
+      parentName: Jahdiel_2
+      position: {x: 0.8036427, y: -0.41097847, z: 0.029590491}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:Solving
+      parentName: Jahdiel_2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:Hips
+      parentName: Jahdiel_2:Solving
+      position: {x: 0, y: -0.00000011920929, z: 0.8658359}
+      rotation: {x: 0.7210506, y: 0.03217781, z: 0.020073753, w: 0.69184375}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:Spine
+      parentName: Jahdiel_2:Hips
+      position: {x: -0, y: 0.1181799, z: -0.027004449}
+      rotation: {x: -0.05873158, y: 0.0010162086, z: -0.00006440384, w: 0.9982733}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:Spine1
+      parentName: Jahdiel_2:Spine
+      position: {x: -0, y: 0.09614905, z: 0}
+      rotation: {x: 0.026603436, y: 0.000033639102, z: -0.0030901951, w: 0.9996413}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:Spine2
+      parentName: Jahdiel_2:Spine1
+      position: {x: -0, y: 0.09614905, z: 0}
+      rotation: {x: 0.015350449, y: -0.01472442, z: -0.0026633954, w: 0.9997702}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:Spine3
+      parentName: Jahdiel_2:Spine2
+      position: {x: -0, y: 0.09614905, z: 0}
+      rotation: {x: 0.026264152, y: -0.0009766922, z: 0.0026996566, w: 0.99965096}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:Neck
+      parentName: Jahdiel_2:Spine3
+      position: {x: -0, y: 0.123620205, z: 0.01236202}
+      rotation: {x: 0.052081414, y: -0.01868311, z: 0.013982922, w: 0.9983702}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:Neck1
+      parentName: Jahdiel_2:Neck
+      position: {x: -0, y: 0.045185402, z: 0}
+      rotation: {x: 0.06052908, y: -0.0035890443, z: 0.002923835, w: 0.9981557}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:Head
+      parentName: Jahdiel_2:Neck1
+      position: {x: -0, y: 0.045185402, z: 0}
+      rotation: {x: -0.060943466, y: -0.00003014266, z: 0.002595279, w: 0.9981379}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:HeadEnd
+      parentName: Jahdiel_2:Head
+      position: {x: -0, y: 0.09728078, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:RightShoulder
+      parentName: Jahdiel_2:Spine3
+      position: {x: -0, y: 0.08830014, z: 0.052709177}
+      rotation: {x: -0.09150705, y: 0.06806705, z: -0.78571045, w: 0.6079905}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:RightArm
+      parentName: Jahdiel_2:RightShoulder
+      position: {x: -0, y: 0.19208086, z: 0}
+      rotation: {x: 0.090542965, y: 0.16215129, z: 0.13629384, w: 0.9731048}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:RightForeArm
+      parentName: Jahdiel_2:RightArm
+      position: {x: -0, y: 0.29549274, z: 0}
+      rotation: {x: 0.007837389, y: -0.17930855, z: 0.0023047437, w: 0.983759}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:RightHand
+      parentName: Jahdiel_2:RightForeArm
+      position: {x: -0, y: 0.2439998, z: 0}
+      rotation: {x: -0.064578876, y: -0.0056111184, z: 0.08637963, w: 0.99415123}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:RightHandThumb1
+      parentName: Jahdiel_2:RightHand
+      position: {x: 0.028402593, y: 0.037473172, z: 0.027864665}
+      rotation: {x: 0.38480818, y: -0, z: -0, w: 0.9229966}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:RightHandMiddle1
+      parentName: Jahdiel_2:RightHand
+      position: {x: -0, y: 0.09992845, z: -0.000640567}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:LeftShoulder
+      parentName: Jahdiel_2:Spine3
+      position: {x: -0, y: 0.08830014, z: 0.052709177}
+      rotation: {x: -0.08603205, y: -0.060914326, z: 0.78414154, w: 0.6115636}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:LeftArm
+      parentName: Jahdiel_2:LeftShoulder
+      position: {x: -0, y: 0.19208086, z: 0}
+      rotation: {x: 0.081373446, y: -0.2795355, z: -0.139845, w: 0.9464046}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:LeftForeArm
+      parentName: Jahdiel_2:LeftArm
+      position: {x: -0, y: 0.29549274, z: 0}
+      rotation: {x: 0.0099989865, y: 0.2893401, z: -0.0013926881, w: 0.9571731}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:LeftHand
+      parentName: Jahdiel_2:LeftForeArm
+      position: {x: -0, y: 0.2439998, z: 0}
+      rotation: {x: 0.11437516, y: -0.032526523, z: -0.27159762, w: 0.9550367}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:LeftHandThumb1
+      parentName: Jahdiel_2:LeftHand
+      position: {x: -0.028402593, y: 0.037473172, z: 0.027864665}
+      rotation: {x: 0.38480818, y: -0, z: -0, w: 0.9229966}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:LeftHandMiddle1
+      parentName: Jahdiel_2:LeftHand
+      position: {x: -0, y: 0.09992845, z: -0.000640567}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:RightUpLeg
+      parentName: Jahdiel_2:Hips
+      position: {x: 0.079706654, y: 0, z: 0}
+      rotation: {x: -0.08229389, y: 0.06801891, z: 0.07791898, w: 0.99122643}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:RightLeg
+      parentName: Jahdiel_2:RightUpLeg
+      position: {x: -0, y: -0.43250167, z: 0}
+      rotation: {x: 0.11568567, y: -0, z: -0, w: 0.9932859}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:RightFoot
+      parentName: Jahdiel_2:RightLeg
+      position: {x: -0, y: -0.3661363, z: 0}
+      rotation: {x: 0.062339626, y: 0.07827441, z: -0.045491006, w: 0.9939404}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:RightForeFoot
+      parentName: Jahdiel_2:RightFoot
+      position: {x: -0, y: -0.03466872, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:RightToeBase
+      parentName: Jahdiel_2:RightForeFoot
+      position: {x: -0, y: 0, z: 0.13577372}
+      rotation: {x: -0.102580346, y: 0, z: -0, w: 0.99472475}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:RightToeBaseEnd
+      parentName: Jahdiel_2:RightToeBase
+      position: {x: -0, y: 0, z: 0.05103004}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:LeftUpLeg
+      parentName: Jahdiel_2:Hips
+      position: {x: -0.079706654, y: 0, z: 0}
+      rotation: {x: -0.031271294, y: -0.17711055, z: -0.06428226, w: 0.98159146}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:LeftLeg
+      parentName: Jahdiel_2:LeftUpLeg
+      position: {x: -0, y: -0.43250167, z: 0}
+      rotation: {x: 0.15973173, y: -0, z: -0, w: 0.98716044}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:LeftFoot
+      parentName: Jahdiel_2:LeftLeg
+      position: {x: -0, y: -0.3661363, z: 0}
+      rotation: {x: -0.017847998, y: 0.019525396, z: 0.025174815, w: 0.9993331}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:LeftForeFoot
+      parentName: Jahdiel_2:LeftFoot
+      position: {x: -0, y: -0.03466872, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:LeftToeBase
+      parentName: Jahdiel_2:LeftForeFoot
+      position: {x: -0, y: 0, z: 0.13577372}
+      rotation: {x: 0.00036681257, y: -0, z: -0, w: 0.99999994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jahdiel_2:LeftToeBaseEnd
+      parentName: Jahdiel_2:LeftToeBase
+      position: {x: -0, y: 0, z: 0.06479005}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Sword
+      parentName: BlockingHitWithSword(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Sword:Sword1
+      parentName: Sword
+      position: {x: 0.5005883, y: -0.49642855, z: 0.7993604}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Sword:Sword2
+      parentName: Sword
+      position: {x: 0.66778755, y: -0.9604828, z: 1.6556193}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Sword:Sword3
+      parentName: Sword
+      position: {x: 0.61746395, y: -0.8783644, z: 1.4856486}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Sword:Sword4
+      parentName: Sword
+      position: {x: 0.6247458, y: -0.8171249, z: 1.3441006}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Sword:Sword5
+      parentName: Sword
+      position: {x: 0.5582373, y: -0.7229002, z: 1.1689608}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Sword:Solving
+      parentName: Sword
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Sword:root
+      parentName: Sword:Solving
+      position: {x: 0.5005883, y: -0.49642855, z: 0.7993604}
+      rotation: {x: -0.44454882, y: 0.23538427, z: 0.7275061, w: 0.4665892}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Sword:endBone
+      parentName: Sword:root
+      position: {x: -0.099999994, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers
+      parentName: BlockingHitWithSword(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_1
+      parentName: Unlabeled_Markers
+      position: {x: 0.41599673, y: -0.17345239, z: 0.040651165}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_2
+      parentName: Unlabeled_Markers
+      position: {x: 0.6948588, y: -0.15859781, z: 0.024501259}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Unlabeled_Markers:_3
+      parentName: Unlabeled_Markers
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
